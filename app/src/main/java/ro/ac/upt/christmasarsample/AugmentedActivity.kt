@@ -32,29 +32,23 @@ class AugmentedActivity : AppCompatActivity() {
 
         arFragment = supportFragmentManager.findFragmentById(R.id.scf_central) as ArFragment
 
-        TODO("2. Invoke addRenderableToScene once a tap is executed over the AR plane")
-
+        // TODO("2. Invoke addRenderableToScene once a tap is executed over the AR plane")
 
     }
 
     private fun initRenderableModel() {
         val modelUri = Uri.parse("model.sfb")
 
-        TODO("1. Init model renderable variable")
-
+        // TODO("1. Init model's renderable variable")
 
     }
 
     private fun addRenderableToScene(anchor: Anchor, renderable: Renderable) {
-        TODO("3. Build an anchor node and set the AR scene to be its parent")
+        // TODO("3. Build an anchor node and set the AR scene to be its parent")
 
+        // TODO("4. Build an transformable node and set the previously anchor node to be its parent")
 
-        TODO("4. Build an transformable node and set the previously anchor node to be its parent")
-
-
-        TODO("5. Assign node's renderable property to previously loaded renderable")
-
-
+        // TODO("5. Assign node's renderable property to previously loaded renderable")
     }
 
     companion object {
